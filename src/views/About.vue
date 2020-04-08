@@ -28,7 +28,7 @@ export default {
   },
   created () {
     aboutAPI
-      .queryHomeOverview()
+      .queryAboutData()
       .then(result => {
         console.log(result)
         this.test = JSON.stringify(result)

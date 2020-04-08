@@ -4,8 +4,8 @@ import { reqHandle } from 'commonPath/ajax'
 
 export default {
   // demo test
-  // homeOverview
-  queryHomeOverview: reqHandle('/cloudTerminalManagementSys/admin/deviceoperate/homeOverview', {
+  // home
+  queryAboutData: reqHandle('/test/getSomething', {
     method: HTTP_METHOD.GET
   })
 }
