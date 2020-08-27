@@ -18,7 +18,7 @@ npm run serve
 ## 项目打包
 
 ```
-先运行 dll 编译不常修改的第三方库
+先运行 dll 编译不常更新的第三方库, 根据需求视情况添加
 npm run dll
 
 生成 dll 文件之后再运行 build （如果之前已经生成了 dll 则直接 build，除非对应的第三方库版本更新 则需要再次 dll）
@@ -38,7 +38,7 @@ npm run build
       |-- utils.js // 项目的公共方法
     |-- config // axios 相关配置参数
     |-- router // vue-router
-    |-- service // 发送请求的封装，页面市级调用后端接口的实例方法
+    |-- service // 发送请求的封装，调用后端接口的实例方法
     |-- store // vuex
     |-- views // 项目页面
       |-- common // 特殊展示页面
