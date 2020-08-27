@@ -48,6 +48,3 @@ npm run build
       |-- components // 公共组件
       
 ```
-## 开发中的注意事项以及必须遵守的规则
-1.接口在`service`中定义，根据不同模块单独使用独立的js文件。比如`user`模块的接口放在`user.js`中，最后统一在`index.js`中到处。
-continue...
